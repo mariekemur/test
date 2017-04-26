@@ -6,6 +6,7 @@ path='/imaging/mm07/occludedObjReprDynamics';
 cd(path);
 addpath(genpath('/imaging/mm07/^programs/matlab'));
 
+disp('hello');
 
 %% control variables
 if ~exist('normaliseArea','var'); normaliseArea=0; end
